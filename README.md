@@ -48,7 +48,7 @@ Qualitative comparison of video matting results on challenging real-world sequen
     </td>
     <td style="text-align: center;">
       <p>Input Image</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture1.png" alt="input video">
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture5.png" alt="input video">
     </td>
     <td style="text-align: center;">
       <p>Input Image</p>
