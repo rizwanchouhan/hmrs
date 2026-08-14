@@ -98,7 +98,7 @@ bash fetch_data.sh
 ### For Image Input:
 
 ```
-python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
+python3 run_demo.py --checkpoint=data/pretrained_model/hmrs_checkpoint.pt --img_file input/Picture5.png
 ```
 
 <table>
@@ -143,7 +143,7 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 ### For Video Input:
 
 ```
-python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
+python3 run_demo.py --checkpoint=data/pretrained_model/hmrs_checkpoint.pt --vid_file input/dancer.mp4
 ```
 
 <table>
@@ -175,14 +175,14 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 
 2. Run the COCO evaluation code.
 ```
-python3 coco.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt
+python3 coco.py --checkpoint=data/pretrained_model/hmrs_checkpoint.pt
 ```
 
 ### 3DPW
 
 Run the evaluation code. Using `--dataset` to specify the evaluation dataset.
 ```
-python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --dataset=3dpw --log_freq=20
+python3 main.py --checkpoint=data/pretrained_model/hmrs_checkpoint.pt --dataset=3dpw --log_freq=20
 ```
 
 ## Training
@@ -190,5 +190,5 @@ python3 main.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt -
 We can monitor the training process by setting up a TensorBoard in the directory `./logs`.
 
 ```
-CUDA_VISIBLE_DEVICES=0 python3 trainer.py --regressor emo_body_lang --single_dataset --misc TRAIN.BATCH_SIZE 64
+CUDA_VISIBLE_DEVICES=0 python3 trainer.py --regressor hmrs --single_dataset --misc TRAIN.BATCH_SIZE 64
 ```
