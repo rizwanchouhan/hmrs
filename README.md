@@ -43,21 +43,21 @@ Qualitative comparison of video matting results on challenging real-world sequen
       <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture1.png" alt="input video">
     </td>
     <td style="text-align: center;">
-      <p>Reconstruction</p>
+      <p>Input Image</p>
       <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture3.png" alt="Foreground">
     </td>
         <td style="text-align: center;">
       <p>Input Image</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture5.png="input video">
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture5.png=" alt="Foreground">
     </td>
     <td style="text-align: center;">
-      <p>Reconstruction</p>
+      <p>Input Image</p>
       <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture7.png" alt="Foreground">
     </td>
   </tr>
     <tr>
     <td style="text-align: center;">
-      <p>Input Image</p>
+      <p>Reconstruction</p>
       <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture2.png" alt="input video">
     </td>
     <td style="text-align: center;">
@@ -65,7 +65,7 @@ Qualitative comparison of video matting results on challenging real-world sequen
       <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture4.png" alt="Foreground">
     </td>
         <td style="text-align: center;">
-      <p>Input Image</p>
+      <p>Reconstruction</p>
       <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture6.png" alt="input video">
     </td>
     <td style="text-align: center;">
