@@ -14,66 +14,6 @@ The proposed method employs hierarchical mesh alignment with a coarse-to-fine re
 
 <img style="max-width: 100%;" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/method.jpg" alt="Overview">
 
-## Demo
-
-Qualitative comparison of video matting results on challenging real-world sequences.
-
-<table>
-  <tr>
-    <td style="text-align: center;">
-      <p>Input Video</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video1.gif" alt="input video">
-    </td>
-    <td style="text-align: center;">
-      <p>Reconstruction</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video1_result.gif" alt="Foreground">
-    </td>
-        <td style="text-align: center;">
-      <p>Input Video</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video2.gif" alt="input video">
-    </td>
-    <td style="text-align: center;">
-      <p>Reconstruction</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video2_result.gif" alt="Foreground">
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <p>Input Image</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture1.png" alt="input video">
-    </td>
-    <td style="text-align: center;">
-      <p>Input Image</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture3.png" alt="Foreground">
-    </td>
-    <td style="text-align: center;">
-      <p>Input Image</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture5.png" alt="input video">
-    </td>
-    <td style="text-align: center;">
-      <p>Input Image</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture7.png" alt="Foreground">
-    </td>
-  </tr>
-    <tr>
-    <td style="text-align: center;">
-      <p>Reconstruction</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture2.png" alt="input video">
-    </td>
-    <td style="text-align: center;">
-      <p>Reconstruction</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture4.png" alt="Foreground">
-    </td>
-        <td style="text-align: center;">
-      <p>Reconstruction</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture6.png" alt="input video">
-    </td>
-    <td style="text-align: center;">
-      <p>Reconstruction</p>
-      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture8.png" alt="Foreground">
-    </td>
-  </tr>
-</table>
 
 ## 🛠️ Installation
 
@@ -161,9 +101,44 @@ bash fetch_data.sh
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --img_file input/Picture5.png
 ```
 
-<p align="center">
-    <img style="max-width: 100%;" src="https://github.com/swerizwan/hmrs/blob/main/resources/image.png" alt="Overview">
-</p>
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <p>Input Image</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture1.png" alt="input video">
+    </td>
+    <td style="text-align: center;">
+      <p>Input Image</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture3.png" alt="Foreground">
+    </td>
+    <td style="text-align: center;">
+      <p>Input Image</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture5.png" alt="input video">
+    </td>
+    <td style="text-align: center;">
+      <p>Input Image</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture7.png" alt="Foreground">
+    </td>
+  </tr>
+    <tr>
+    <td style="text-align: center;">
+      <p>Reconstruction</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture2.png" alt="input video">
+    </td>
+    <td style="text-align: center;">
+      <p>Reconstruction</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture4.png" alt="Foreground">
+    </td>
+        <td style="text-align: center;">
+      <p>Reconstruction</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture6.png" alt="input video">
+    </td>
+    <td style="text-align: center;">
+      <p>Reconstruction</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/Picture8.png" alt="Foreground">
+    </td>
+  </tr>
+</table>
 
 ### For Video Input:
 
@@ -171,10 +146,26 @@ python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.
 python3 run_demo.py --checkpoint=data/pretrained_model/emo_body_lang_checkpoint.pt --vid_file input/dancer.mp4
 ```
 
-<p align="center">
-    <img style="max-width: 100%;" src="https://github.com/swerizwan/hmrs/blob/main/resources/image.gif" alt="Overview">
-</p>
-
+<table>
+  <tr>
+    <td style="text-align: center;">
+      <p>Input Video</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video1.gif" alt="input video">
+    </td>
+    <td style="text-align: center;">
+      <p>Reconstruction</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video1_result.gif" alt="Foreground">
+    </td>
+        <td style="text-align: center;">
+      <p>Input Video</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video2.gif" alt="input video">
+    </td>
+    <td style="text-align: center;">
+      <p>Reconstruction</p>
+      <img width="180" src="https://github.com/rizwanchouhan/hmrs/blob/main/resources/video2_result.gif" alt="Foreground">
+    </td>
+  </tr>
+</table>
 
 ## Evaluation
 
